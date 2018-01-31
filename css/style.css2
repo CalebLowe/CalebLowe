@@ -6,7 +6,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
-	background: #fff url(https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgbhttps://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb) no-repeat bottom right;
+	background-image: #fff url(https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgbhttps://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb) no-repeat bottom right;
 	margin: 5;
 	padding: 5;
 	}
