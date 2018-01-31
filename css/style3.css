@@ -1,0 +1,31 @@
+.photo {
+  border-style: double;
+  display: block;
+  margin-left: auto;
+  width: 50%;
+  height:200px;width:250px;
+}
+Body{
+  border-style: ridge;
+  border-color: red;
+  border-width: thick;
+  background: #fff url(https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgbhttps://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb) no-repeat bottom right;
+}
+h1{
+  color:white;
+  border-width:medium;
+  border-color:red;
+}
+.facts {
+  border-style:solid;
+  border-color: red
+}
+h2{
+  color:white;
+}
+h3{
+  color:white;
+}
+.navigation{
+  color: lightseagreen;
+}

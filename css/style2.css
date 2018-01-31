@@ -11,9 +11,10 @@ body {
 	padding: 5;
 	}
 p {
+	border: 2px solid blue
 	margin-top: 0;
 	text-align: justify;
-	padding: 10px
+	padding: 2px
 	}
 h3 {
 	font: italic normal 1.4em georgia, sans-serif;
