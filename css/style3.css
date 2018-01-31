@@ -1,9 +1,12 @@
-.photo {
+img {
+  margin:auto;
   border-style: double;
+  border-color:red;
   display: block;
-  margin-left: auto;
+  vertical-align: center;
   width: 50%;
-  height:200px;width:250px;
+  height: 250px;
+  width: 190px;
 }
 Body{
   border-style: ridge;
@@ -12,20 +15,25 @@ Body{
   background: #fff url(https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgbhttps://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb) no-repeat bottom right;
 }
 h1{
+  text-align: center;
   color:white;
   border-width:medium;
   border-color:red;
 }
-.facts {
-  border-style:solid;
-  border-color: red
+div#facts {
+text-align: center;
+
 }
 h2{
+  text-align: center;
   color:white;
 }
 h3{
   color:white;
 }
-.navigation{
+nav{
   color: lightseagreen;
+}
+div#contact{
+  text-align: horizontal
 }
