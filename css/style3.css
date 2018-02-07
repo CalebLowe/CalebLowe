@@ -46,6 +46,14 @@ li {
   text-align: center;
   color:red;
 }
+#content li{
+  text-align: center;
+  padding: 30px;
+  border-style:outset;
+  border-width: medium;
+  border-color: Red;
+  background-color:#000066
+}
 iframe{
   margin:auto;
   border-style: ridge;
@@ -55,7 +63,6 @@ iframe{
   vertical-align: center;
 }
 #greeting{
-  background-color:#00008B
   text-align:center;
-  color:#8B0000
+  color:#000066
 }
