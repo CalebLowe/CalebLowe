@@ -37,10 +37,12 @@ h3{
 nav{
   color: lightseagreen;
 }
-div#contact{
-  text-align: horizontal
+li {
+  display: inline-block;
+  list-style: none;
+  list-style-type: none;
 }
-div#content{
+#content{
   text-align: center;
   color:red;
 }
@@ -51,4 +53,9 @@ iframe{
   border-color:red;
   display: block;
   vertical-align: center;
+}
+#greeting{
+  background-color:#00008B
+  text-align:center;
+  color:#8B0000
 }

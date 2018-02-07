@@ -1,5 +1,4 @@
-var name = prompt('What is your name?');
-
+var name = prompt("Hi there! What's your name?");
 var checkName = function(){
   if(name === "") {
     name = prompt('What is your name, for real this time?');
@@ -9,5 +8,5 @@ var checkName = function(){
 }
 
 checkName(); // kicks off the name-checking the first time
-
-alert('Hello ' + name);
+var output = document.querySelector('#greeting');
+output.innerHTML = "<h1>Hello, " + name + ".</h1>";
