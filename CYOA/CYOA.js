@@ -1,4 +1,4 @@
-var response = prompt("You have awakened in a strange place. you realize you have a weapon in your hand.  |look around| Begin walking|");
+var response = prompt("You have awakened in a strange place. you realize you have a weapon in your hand.  |look around| Begin walking|  ensure that input is always lowercase for correct results");
 
 if(response === "look around"){
     response = prompt("you seem to be in a dark forest. strange colors cover foliage and grasses. the forest is dense but you found an old path that may lead back to civilization. |begin walking| yell for help|");
