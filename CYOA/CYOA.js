@@ -9,7 +9,7 @@ if(response === "look around"){
 }
 
 if(response === "yell for help"){
-    response = prompt("Your voice echoes loudly through much of the forest. you dont hear a response, but youve definately stirred some of the wild-life that resides in this dark place. |Continue|");
+    response = prompt("Your voice echoes loudly through much of the forest. you dont hear a response, but youve definately stirred some of the wild-life that resides in this dark place. |continue|");
 } else if (response || "continue walking","begin walking") {
     response = prompt("the path leads to split. |go left| go right| look aroud|");
 } else {
@@ -18,7 +18,10 @@ if(response === "yell for help"){
 
 if(response === "go left"){
     response = prompt("the path leads on for a long time, and is going deeper into the woods.it seems to be getting darker. |push forward| turn around|");
-} else if (response === "go right") {
+} else if (response || continue , Continue) {
+    response = prompt("The path goes two directions.  | go left | go right |")
+}
+ else if (response === "go right") {
     response = prompt("more light slowly starts to break through the thick foliage as you continue down the path for a while. a shadowy blur suddenly darts across the path ahead. |investigate| ignore|");
 } else if (response === "look around"){
   response = prompt("as you look around, you notice an old sign lying at the base of a large tree. the sign reveals that the path to the right does eventually lead to people, but the left path goes deeper into the forest.|go left| go right|")
