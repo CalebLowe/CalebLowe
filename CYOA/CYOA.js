@@ -144,10 +144,6 @@ if(response === "deal the final blow"){
     response = prompt("a succesful blow knocks the beast to the ground.it is very wounded. |deal the final blow | leave |");
 }  else if (response === "keep running") {
     response = alert("as you run, the monster lunges from behind and knocks you prone.it is not long before the beast devours you. he is most grateful for the meal. better luck next time!");
-}  else if (response === "enter town") {
-    response = alert("youve finally made it out of the dark forest! as you enter town and look for help, you hear the furious roar of a wounded shadow monster entering behind you. This isnt over.   TO BE CONTINUED (never)");
-} else if (response === "turn around") {
-    response = alert("you turn around to see a bloodied and furious shadow monster towering over you. it lets out a booming roar. This isnt over.    TO BE CONTINUED (never)");
 } else {
     prompt("Please type in a valid input! Refresh the page to try again.");
 }
@@ -162,4 +158,8 @@ if(response === "deal the final blow"){
     response = alert("you turn around to see a bloodied and furious shadow monster towering over you. it lets out a booming roar. This isnt over.    TO BE CONTINUED (never)");
 } else if (response === "leave") {
     response = prompt("you couldnt bring yourself to slay the beast, but it is hurt enough that it doesnt pursue you when you walk away.you have survived the attack, but are also wounded and need medical attention. better move quickly! | continue down down the path |");
+}   else if (response === "enter town") {
+    response = alert("youve finally made it out of the dark forest! as you enter town and look for help, you hear the furious roar of a wounded shadow monster entering behind you. This isnt over.   TO BE CONTINUED (never)");
+} else if (response === "turn around") {
+    response = prompt("you turn around to see a bloodied and furious shadow monster towering over you. it lets out a booming roar. This isnt over.    TO BE CONTINUED (never)");
 }
