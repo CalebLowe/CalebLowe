@@ -114,6 +114,8 @@ if(response === "run"){
     response = prompt("The beast is still. you have survived the attack, but are also wounded and need medical attention. better move quickly! | continue down the path | ");
 }else if (response === "leave") {
     response = prompt("you couldnt bring yourself to slay the beast, but it is hurt enough that it doesnt pursue you when you walk away. | continue down down the path |");
+}  else if (response === "keep running" ) {
+    response = alert("as you run, the monster lunges from behind and knocks you prone.it is not long before the beast devours you. he is most grateful for the meal. better luck next time!");
 }else {
     prompt("Please type in a valid input! Refresh the page to try again.");
 }
