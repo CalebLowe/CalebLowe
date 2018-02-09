@@ -85,7 +85,7 @@ if(response === "dodge"){
 } else if (response === "counter") {
     response = prompt("The counter is unsuccesful, and you are slashed by the beast. | attack again | run |");
 } else if (response === "attack") {
-    response = prompt(("you get the first swing in and strike the beast well. He lunges at you with its claws drawn for attack. |dodge|counter|");
+    response = prompt("you get the first swing in and strike the beast well. He lunges at you with its claws drawn for attack. |dodge|counter|");
 } else if (response === "run") {
     response = prompt("you begin to run down the path, but the beast is gaining quickly, and is soon in range to attack again  | attack again | keep running |");
 } else if (response === "keep running") {
@@ -144,7 +144,7 @@ if(response === "deal the final blow"){
 }  else if (response === "enter town") {
     response = alert("youve finally made it out of the dark forest! as you enter town and look for help, you hear the furious roar of a wounded shadow monster entering behind you. This isnt over.   TO BE CONTINUED (never)");
 } else if (response === "turn around") {
-    response = alert("you turn around to see a bloodied and furious shadow monster towering over you. it lets out a booming roar. This isnt over.    TO BE CONTINUED (never)");    
+    response = alert("you turn around to see a bloodied and furious shadow monster towering over you. it lets out a booming roar. This isnt over.    TO BE CONTINUED (never)");
 } else {
     prompt("Please type in a valid input! Refresh the page to try again.");
 }
