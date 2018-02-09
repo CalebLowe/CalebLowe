@@ -18,7 +18,7 @@ if(response === "yell for help"){
 
 if(response === "go left"){
     response = prompt("the path leads on for a long time, and is going deeper into the woods.it seems to be getting darker. |push forward| turn around|");
-} else if (response || continue , Continue) {
+} else if (response || "continue,Continue") {
     response = prompt("The path goes two directions.  | go left | go right |")
 }
  else if (response === "go right") {
