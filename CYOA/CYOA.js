@@ -167,7 +167,7 @@ if(response === "deal the final blow"){
 }
 
 
-} if(response === "continue down the path") {
+ if(response === "continue down the path") {
     response = prompt("as the evening sets in, you see a faint aura of light a ways ahead of you. you recognize this as the glow of a town.you have finally reached civilization. as the path ends, you hear something behind you.  | enter town | turn around | ");
 }  else if (response === "enter town") {
     response = alert("youve finally made it out of the dark forest! as you enter town and look for help, you hear the furious roar of a wounded shadow monster entering behind you. This isnt over.   TO BE CONTINUED (never)");
