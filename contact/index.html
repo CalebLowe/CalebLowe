@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link type="text/css" rel="stylesheet" href="css/style3.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="../css/style3.css"/>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,50 +15,17 @@
   </style>
 </head>
 <body>
+  <nav>
+  <ul>
   <li><a href="../index.html">Home  </a></li>
   <li><a href=../"projects/index.html"> Projects </a></li>
   <li><a href="../media/index.html">Media </a></li>
    <li><a href="../blog/index.html"> Blog </a></li>
    <li><a href="contact/index.html"> Contact </a></li>
    <li><a href="../CYOA/index.html"> The Dark Forest </a></li>
-   <!--
-    The action attribute defines where on the server the form data should be sent
-    The method attribute specifies the HTTP method (GET or POST)
-  -->
-
-  <form action="form-responses/new" method="POST">
-
-    <input type="text" name="firstname" value="First Name" size="50" autofocus></br>
-    <input type="text" name="lastname" value="Last Name" size="50"></br>
-    <input type="email" name="userEmail" placeholder="your.email@example.com"></br>
-
-    <label>What's this message about?</br>
-      <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span></br>
-      <input type="radio" name="subject" value="personal" checked><span>Personal message</span></br>
-      <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span></br>
-    </label>
-
-    <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!</br>
-    <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...</br>
-
-    <label for="marketing">How did you hear about me?</label></br>
-    <select name="marketing">
-      <optgroup label="Online">
-        <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
-        <option value="github">Online Portfolio (GitHub)</option>
-        <option value="search">Search Engine</option>
-        <option value="email">Email</option>
-      </optgroup>
-      <optgroup label="In-Person">
-        <option value="networking">We met at a networking event</option>
-        <option value="referral">Personal referral</option>
-        <option value="random">We met somewhere else</option>
-      </optgroup>
-      <option value="other">Other</option>
-    </select>
-
-    <textarea name="user_message" rows="8" cols="40"></textarea>
-    <input type="submit">
-  </form>
+ </ul>
+</nav>
+   <ul id="contact-list">Contact Me</ul>
+   <script type="text/javascript" src="contact.js"></script>
 </body>
 </html>
