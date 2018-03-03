@@ -8,5 +8,5 @@ var checkName = function(){
 }
 
 checkName(); // kicks off the name-checking the first time
-var output = document.querySelector('#greeting');
+var output = document.querySelector('.greeting');
 output.innerHTML = "<h1>Hello, " + name + ".</h1>";
