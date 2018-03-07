@@ -103,7 +103,7 @@ iframe{
   color:#000066;
 }
 #everything{
-  padding-left: 500px;
+margin-right: 50%
 }
 #contact li {
   display:inline-block;
@@ -180,4 +180,74 @@ header ::after {
   height: 20%;
   width: 30%;
   align:center;
+}
+.buttonCyoa {
+    background-color: #A9A9A9;
+    border: none;
+    color: white;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height:30%;
+    width:80%;
+    margin:2%;
+    border-radius: 2px;
+}
+.buttonRPS {
+    background-color:#A9A9A9;
+    border: none;
+    color: white;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height:30%;
+    width:80%;
+    margin:2%;
+      border-radius: 2px;
+}
+.buttonHyper {
+    background-color: #A9A9A9;
+    border: none;
+    color: white;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height:30%;
+    width:80%;
+    margin:2%;
+      border-radius: 2px;
+}
+.buttonshowcase {
+    background-color:#A9A9A9;
+    border: none;
+    color: white;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height:30%;
+    width:80%;
+    margin:2%;
+      border-radius: 2px;
+}
+.buttonTutorial {
+    background-color:#A9A9A9;
+    border: none;
+    color: white;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height:30%;
+    width:80%;
+    margin:2%;
+      border-radius: 2px;
+    }
+.introToProjects {
+  color: #fff;
+  font-family: serif;
+
 }
